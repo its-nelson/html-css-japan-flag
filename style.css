@@ -1,0 +1,38 @@
+body {
+    background-color: #E1D9D1;
+}
+
+.flag {
+    background-color: #ffffff;
+    width: 900px;
+    height: 600px;
+    position: relative;
+}
+
+.flag > div {
+    background-color: #BC002D;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: absolute;
+    left: 300px;
+    top: 150px;
+}
+
+p {
+    margin: 0px;
+    text-align: center;
+    font-size: 5rem;
+}
+
+.flag div p {
+    color: #ffffff;
+    font-size: 90px;
+}
+
+footer p {
+    position: relative;
+    font-size: 16px;
+    top: 10px;
+    text-align: left;
+}
